@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="Your Logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item   ">
+                        <a class="nav-link active px-2 fw-bold text-success" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-2 fw-bold text-light">
+                        <a class="nav-link text-dark" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item px-2 fw-bold">
+                        <a class="nav-link text-muted" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item px-2  fw-bold">
+                        <a class="nav-link" href="#">Shortcodes</a>
+                    </li>
+                    <li class="nav-item px-2  fw-bold">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item px-2  fw-bold text-light">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+
+
+                </ul>
+
+                <a class="navbar-brand">
+                    <i class="fa-solid fa-bag-shopping px-2" style="color: #e0e2e5;"></i>
+                    <i class="fa-solid fa-magnifying-glass px-2" style="color: #cbcfd8;"></i>
+                </a>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- navbar -->
+
+
+
+    <!-- section one card -->
+
+    <div class="container-fluid p-0 m-0 ">
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/business2_3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-5 fw-bolder">My Slide Heading</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur rerum minus
+                            excepturi nam quo ad assumenda error nihil fugiat nobis eaque architecto et,
+                            reiciendis ab. Voluptatum, molestiae vitae. Blanditiis, quo!</p>
+                        <button type="button" class="btn btn-success   px-3 m-2 rounded-0">GET STARTED</button>
+                        <button type="button" class="btn btn-outline-light  px-3 m-2rounded-0">LEARN
+                            MORE</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/business31.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-5 fw-bolder">My Slide Heading</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur rerum minus
+                            excepturi nam quo ad assumenda error nihil fugiat nobis eaque architecto et,
+                            reiciendis ab. Voluptatum, molestiae vitae. Blanditiis, quo!</p>
+                        <button type="button" class="btn btn-success   px-3 m-2 rounded-0">GET STARTED</button>
+                        <button type="button" class="btn btn-outline-light   px-3 m-2 rounded-0">LEARN
+                            MORE</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/business_7.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-5 fw-bolder">My Slide Heading</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur rerum minus
+                            excepturi nam quo ad assumenda error nihil fugiat nobis eaque architecto et,
+                            reiciendis ab. Voluptatum, molestiae vitae. Blanditiis, quo!</p>
+                        <button type="button" class="btn btn-success px-3 m-2 rounded-0">GET STARTED</button>
+                        <button type="button" class="btn btn-outline-light  px-3 m-2 rounded-0">LEARN
+                            MORE</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- section two starts -->
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 text-dark p-4 mt-4 text-center">
+                <h1 class="text-secondary fw-medium">Buissness Solution</h1>
+                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt omnis
+                    mollitia accusantium odit
+                    pariatur laboriosam nemo eveniet sed, ratione doloribus itaque consectetur aut.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card bg-light border-0 text-center py-4">
+                    <div class="card-body box-a">
+                        <i class="fa-solid fa-earth-oceania p-3 bg-secondary  rounded-circle text-light" style="color: #96a0b0; font-size: 2rem"></i>
+                       
+                       
+                        <h5 class="mt-3 text-secondary fw-bold">Business Solution</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Deserunt omnis mollitia ratione doloribus itaque</p>
+                            <a href="YOUR_LINK_HERE" class="navbar-brand text-muted ms-4">Read More
+                                <i class="fa-solid fa-caret-right" style="color: #4f5154;"></i>
+                            </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card bg-light border-0 text-center py-4">
+                    <div class="card-body box-b">
+                        
+                        <i class="fa-solid fa-chart-line p-3 bg-secondary  rounded-circle text-light" style="color: #96a0b0; font-size: 2rem"></i>
+                        <h5 class="mt-3 text-secondary fw-bold">Quality Analytics</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Deserunt omnis mollitia ratione doloribus itaque</p>
+                            <a href="YOUR_LINK_HERE" class="navbar-brand text-muted ms-4">Read More
+                                <i class="fa-solid fa-caret-right" style="color: #4f5154;"></i>
+                            </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card bg-light border-0 text-center py-4">
+                    <div class="card-body box-c">
+                        <i class="fa-solid fa-comments p-3 bg-secondary  rounded-circle text-light" style="color: #96a0b0; font-size: 2rem"></i>
+                        <h5 class="mt-3 text-secondary fw-bold">Personal Consultant</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Deserunt omnis mollitia ratione doloribus itaque</p>
+                            <a href="YOUR_LINK_HERE" class="navbar-brand text-muted ms-4">Read More
+                                <i class="fa-solid fa-caret-right" style="color: #4f5154;"></i>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- section two ends -->
+
+
+
+    <!-- section three starts-->
+
+    <div class="container-fluid mt-4">
+        <div class="row">
+
+            <div class=" col-lg-4 text-light text-start box-1 p-4">
+                <h5>Our Values</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur qui error numquam sed omnis
+                    incidunt sunt vitae laborum reprehenderit fuga amet, libero quo aperiam doloremque pariatur dolorem.
+                    Modi, maiores deleniti.</p>
+            </div>
+            <div class=" col-lg-4 text-light  text-start  box-2 p-4">
+                <h5>Our Philosophy</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur qui error numquam sed omnis
+                    incidunt sunt vitae laborum reprehenderit fuga amet, libero quo aperiam doloremque pariatur dolorem.
+                    Modi, maiores deleniti.</p>
+            </div>
+            <div class=" col-lg-4 text-light  text-start box-3 p-4">
+                <h5>Our Mission</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur qui error numquam sed omnis
+                    incidunt sunt vitae laborum reprehenderit fuga amet, libero quo aperiam doloremque pariatur dolorem.
+                    Modi, maiores deleniti.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="bg-custom-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 left-sect ">
+                    <h1 class="text-secondary fw-medium">Our Business Opportunity</h1>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur qui error
+                        numquam sed omnis
+                        incidunt sunt vitae laborum reprehenderit fuga amet,libero quo aperiam doloremque pariatur dolorem.
+                        Modi, maiores deleniti.</p>
+    
+                    <ul class="list-unstyled business-list list-decor ms-4">
+                        <li><i class="fa-solid fa-angle-right bg-success text-light"></i> Lorem ipsum dolor sit amet
+                            consectetur.</li>
+                        <li><i class="fa-solid fa-angle-right bg-success text-light"></i> Lorem ipsum dolor sit amet
+                            consectetur adipisicing.</li>
+                        <li><i class="fa-solid fa-angle-right bg-success text-light"></i> Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit.</li>
+                    </ul>
+    
+    
+                </div>
+                <div class="col-lg-6 right-sect">
+                    <img src="./images/businessman-600x536.jpg" class="img-fluid" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <div class="container-fluid">
+        <div class="row justify-content-between">
+            <div class="col-lg-8 bg-success p-5 text-light">
+                <h5 class="">Multipurpose Theme</h5>
+                <a class="navbar-brand text-light">Our theme is perfect solution for everyone!</a>
+            </div>
+            <div class="col-lg-4 bg-success p-5 text-light d-flex align-items-center justify-content-end">
+                <button type="button" class="btn btn-outline-light px-3 m-2 rounded-0">LEARN MORE!</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- secriontwo-ends -->
+
+
+    <!-- section three starts -->
+
+    <!-- <div class="container-fluid p-0 m-0 ">
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/business_7.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-5 fw-bolder">What Our Customer Say</h5>
+                        <i> Investigationes demonstraverunt lectores quad li Investigationes demonstraverunt lectores
+                            quad li Investigationes demonstraverunt lectores quad li</i>
+                            <div> <i>Taylor Miles </i></div>
+                            <div>  <i>Active-Eden </i></div>
+                            
+                           
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/business31.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-5 fw-bolder">What Our Customer Say</h5>
+                        <i> Investigationes demonstraverunt lectores quad li Investigationes demonstraverunt lectores
+                            quad li Investigationes demonstraverunt lectores quad li</i>
+                            <div> <i>Taylor Miles </i></div>
+                            <div>  <i>Active-Eden </i></div>
+                            
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/business31.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-5 fw-bolder">What Our Customer Say</h5>
+                        <i class="fw-bold p-2 "> Investigationes demonstraverunt lectores quad li Investigationes demonstraverunt lectores
+                            quad li Investigationes demonstraverunt lectores quad li</i>
+                            <div  class="fw-bold p-2 " > <i>Taylor Miles </i></div>
+                            <div  class="fw-bold p-2 text-muted">  <i>Active-Eden </i></div>
+                            
+                       
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div> -->
+
+
+
+
+    <div class="container-fluid p-0 m-0">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="carousel-content">
+                    <h4 class="display-5 fw-bolder">What Our Customer Say</h4>
+                    <i class="fw-bold p-2">Investigationes demonstraverunt lectores quad li Investigationes
+                        demonstraverunt lectores
+                        quad li Investigationes demonstraverunt lectores quad li</i>
+                    <div class="fw-bold p-2"> <i>Taylor Miles </i></div>
+                    <div class="fw-bold p-2 text-light"> <i>Active-Eden </i></div>
+                </div>
+                <img src="./images/business_7.jpg" class="d-block w-100 " alt="...">
+            </div>
+            <div class="item">
+                <div class="carousel-content">
+                    <h4 class="display-5 fw-bolder">What Our Customer Say</h4>
+                    <i class="fw-bold p-2">Investigationes demonstraverunt lectores quad li Investigationes
+                        demonstraverunt lectores
+                        quad li Investigationes demonstraverunt lectores quad li</i>
+                    <div class="fw-bold p-2"> <i>Taylor Miles </i></div>
+                    <div class="fw-bold p-2  text-light"> <i>Active-Eden </i></div>
+                </div>
+                <img src="./images/business_7.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="item">
+                <div class="carousel-content">
+                    <h4 class="display-5 fw-bolder">What Our Customer Say</h4>
+                    <i class="fw-bold p-2">Investigationes demonstraverunt lectores quad li Investigationes
+                        demonstraverunt lectores
+                        quad li Investigationes demonstraverunt lectores quad li</i>
+                    <div class="fw-bold p-2"> <i>Taylor Miles </i></div>
+                    <div class="fw-bold p-2 text-light"> <i>Active-Eden </i></div>
+                </div>
+                <img src="./images/business_7.jpg" class="d-block w-100" alt="...">
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- section three end -->
+
+    <!-- section four starts-->
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 text-dark p-4 mt-4 text-center">
+                <h1 class="text-secondary fw-medium">Our Recent News</h1>
+                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt omnis
+                    mollitia accusantium odit</p>
+                <p class="text-secondary">
+                    pariatur laboriosam nemo eveniet sed, ratione doloribus itaque consectetur aut.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card common-card bg-light border-0 text-start ms-4 ">
+                    <div class="card-body p-0 pb-4">
+                        <div class="blog-info">
+                            <img src="images/utah-440520-450x340.jpg" class="img-fluid" alt="...">
+                            <div class="date text-light text-center">
+                                <span class="date-info bg-secondary d-block">23</span>
+                                <span class="month-info bg-dark d-block py-1">Jan</span>
+                            </div>
+                        </div>
+
+                        <h5 class="mt-3 text-muted ms-4 text-secondary">Fullwidth Blog Post </h5>
+                        <p class="text-muted ms-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+                            omnis consectetur adipisicing elit.
+                        </p>
+                      
+                            <a href="#" class="navbar-brand text-muted ms-4">Read More
+                                <i class="fa-solid fa-caret-right" style="color: #4f5154;"></i>
+                            </a>
+                            
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card common-card bg-light border-0 text-start ms-4">
+                    <div class="card-body p-0 pb-4">
+                        <div class="blog-info">
+                            <img src="images/rocks2-450x340.jpg" class="img-fluid" alt="...">
+                            <div class="date text-light text-center">
+                                <span class="date-info bg-secondary d-block ">25</span>
+                                <span class="month-info bg-dark d-block">Sep</span>
+                            </div>
+                        </div>
+
+
+                        <h5 class="mt-3 text-muted ms-4 text-secondary">Simple Blog Post</h5>
+                        <p class="text-muted ms-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+                            omnis consectetur adipisicing elit.</p>
+                            <a href="YOUR_LINK_HERE" class="navbar-brand text-muted ms-4">Read More
+                                <i class="fa-solid fa-caret-right" style="color: #4f5154;"></i>
+                            </a>
+                            
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card common-card bg-light border-0 text-start ms-4">
+                    <div class="card-body p-0 pb-4">
+                        <div class="blog-info">
+                            <img src="images/feet-450x340.jpg" class="img-fluid" alt="...">
+                            <div class="date text-light text-center">
+                                <span class="date-info bg-secondary d-block">11</span>
+                                <span class="month-info bg-dark d-block">Nov</span>
+                            </div>
+                        </div>
+
+
+                        <h5 class="mt-3 text-muted text-secondary ms-4">Standard Blog Post</h5>
+                        <p class="text-muted ms-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+                            omnis consectetur adipisicing elit.</p>
+                            <a href="YOUR_LINK_HERE" class="navbar-brand text-muted ms-4">Read More
+                                <i class="fa-solid fa-caret-right" style="color: #4f5154;"></i>
+                            </a>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- section four end-->
+
+    <!-- footer -->
+
+
+
+    <!-- <div class="container-fluid bg-dark text-light">
+
+    <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-1">
+
+        </div>
+        <div class="col-lg-3  col-md-6 col-sm-1">
+            
+        </div>
+        <div class="col-lg-3  col-md-6 col-sm-1">
+        
+        </div>
+        <div class="col-lg-3  col-md-6 col-sm-1">
+        
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+
+        </div>
+
+    </div> -->
+
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="container-fluid footer mt-5 p-4">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-white">
+
+            <!-- <div class="container p-4 pb-0"> -->
+
+            <!-- <section class=""> -->
+
+            <div class="row">
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-5">
+                    <!-- <h6 class="text-uppercase mb-4 font-weight-bold">
+                Company name
+              </h6> -->
+                    <p class="font-weight-bold text-secondary">
+                        Here you can use rows and columns to organize your footer
+                        content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.
+                    </p>
+
+                    <p class="font-weight-bold text-secondary">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.
+                    </p>
+
+                </div>
+
+
+                <hr class="w-100 clearfix d-md-none" />
+
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class=" mb-4  fw-bold text-white">Recent Post</h6>
+                    <p class="text-secondary fw-medium">Standard Blog Post </p>
+                    <span class="text-secondary">Feb 14,2015</span>
+                    <hr>
+                    <p class="text-secondary fw-medium">Video Blog Post </p>
+                    <span class="text-secondary">Feb 14,2015</span>
+                    <hr>
+                    <p class="text-secondary fw-medium">Simple Blog Post </p>
+                    <span class="text-secondary">Feb 14,2015</span>
+
+                </div>
+
+
+                <hr class="w-100 clearfix d-md-none" />
+
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="mb-4 font-weight-bold  text-white">
+                        Pages
+                    </h6>
+                    <p class="text-secondary fw-medium">Home Portfolio venteed slider </p>
+
+                    <hr>
+                    <p class="text-secondary fw-medium">About us 4 </p>
+
+                    <hr>
+                    <p class="text-secondary fw-medium"> Blog </p>
+                    <hr>
+                    <p class="text-secondary fw-medium">Contact Us</p>
+
+
+
+
+                </div>
+
+
+                <hr class="w-100 clearfix d-md-none" />
+
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="mb-4 font-weight-bold text-white">Contact Info</h6>
+                    <p class="text-secondary"><i class="fa-solid fa-location-dot" style="color: #a6aab0;"></i>
+                        Manchester Road 123-780 Silicon,
+                        2432534MD,Great Country</p>
+
+                    <p class="text-secondary"><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                    <p class="text-secondary"><i class="fas fa-envelope mr-3"></i> httpfintop.com</p>
+                    <p class="text-secondary"><i class="fa-solid fa-earth-americas" style="color: #838a95;"></i>
+                        httpurl//httpfintop.com</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </footer>
+
+    </div>
+
+
+
+    <div class="container-fluid footer-two">
+        <div class="row d-flex align-items-center">
+
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+
+                <div class="p-3 text-secondary">
+                    Copyright © 2020 . Privacy Policy
+
+                </div>
+
+            </div>
+
+            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+
+
+                <i class="fa-brands fa-facebook-f fw-bold px-2" style="color: #aeb0b2;"></i>
+                <i class="fa-brands fa-twitter px-2" style="color: #aeb0b2;"></i>
+                <i class="fa-solid fa-globe px-2" style="color: #aeb0b2;"></i>
+                <i class="fa-brands fa-vimeo px-2" style="color:  #aeb0b2;"></i>
+                <i class="fa-brands fa-youtube px-2" style="color: #aeb0b2;"></i>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            autoplay: true,
+            margin: 10,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+
+    </script>
+</body>
+
+</html>

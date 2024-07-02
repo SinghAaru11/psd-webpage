@@ -2,26 +2,128 @@
 
 
 
-.carousel-item{
+/*  */
+/* General styles for carousel items and images */
+.carousel-item {
     height: 500px !important;
-}
-.carousel-item img{
-   filter:brightness(0.6);
-}
-.carousel-item{
     position: relative;
 }
 
+.carousel-item img {
+    filter: brightness(0.6);
+}
+
+/* General styles for carousel captions */
 .carousel-caption {
     position: absolute;
     left: 50%;
     bottom: 0;
     top: 50%;
-    transform:translate(-50%,-50%) ;
-    
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Mobile styles (up to 767px) */
+@media (max-width: 767px) {
+    .carousel-item {
+        height: 195px !important;
+    }
 
+    .carousel-caption {
+        bottom: 10px;
+        top: auto;
+        padding: 10px;
+    }
+
+    .carousel-caption h4 {
+        font-size: 2em;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9em;
+    }
+
+    .carousel-caption .btn {
+        padding: 5px 10px;
+        font-size: 0.8em;
+    }
+
+    .carousel-caption .btn-success,
+    .carousel-caption .btn-outline-light {
+        margin-top: 10px;
+    }
+}
+
+/* Tablet styles (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel-item {
+        height: 400px !important;
+    }
+
+    .carousel-caption {
+        bottom: 15px;
+        top: auto;
+        padding: 15px;
+    }
+
+    .carousel-caption h4 {
+        font-size: 2em;
+    }
+
+    .carousel-caption p {
+        font-size: 0.7em;
+    }
+}
+
+p {
+    margin-top: 4px;
+    margin-bottom: 1rem;
+}
+    .carousel-caption .btn {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+
+    .carousel-caption .btn-success,
+    .carousel-caption .btn-outline-light {
+        margin-top: 15px;
+    }
+
+
+/* Desktop styles (992px and above) */
+@media (min-width: 992px) {
+    .carousel-item {
+        height: 500px !important;
+    }
+
+    .carousel-caption {
+        bottom: 0;
+        top: 50%;
+        padding: 20px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 2em;
+    }
+
+    .carousel-caption p {
+        font-size: 1.2em;
+    }
+
+    .carousel-caption .btn {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+
+    .carousel-caption .btn-success,
+    .carousel-caption .btn-outline-light {
+        margin-top: 20px;
+    }
+}
+
+/*  */
 
 .box-a p{
     font-size: 12px;
